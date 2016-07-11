@@ -6,6 +6,9 @@ After that I wrote script, wich automaticaly deploy httpd and tomcat servers, co
 ![alt text](https://github.com/antontkachenka/vagrant/blob/master/source/8.png "Pic 3")
 
 Directory "sourse" contains only screenshots for task. 
+
 File "vagrantfile" contains config for deployment two VM over Virtualbox.
+
 File "web.sh" contains scripts for deployment httpd and mod_jk. 
+
 File "app.sh" contains scripts for deployment tomcat.
