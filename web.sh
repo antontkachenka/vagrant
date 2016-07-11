@@ -13,8 +13,8 @@ sudo tar -xvzf tomcat-connectors-1.2.41-src.tar.gz
 cd tomcat-connectors-1.2.41-src/native 
 sudo ./configure --with-apxs=/usr/sbin/apxs --enable-api-compatibility
 sudo make
-libtool --finish /usr/lib64/httpd/modules
 sudo make install
+sudo cp /opt/tomcat-connectors-1.2.41-src/native/apache-2.0/mod_jk.so /etc/httpd/modules/
 
 #Configure httpd
 cd /etc/httpd/conf
