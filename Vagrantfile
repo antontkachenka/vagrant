@@ -27,4 +27,5 @@ Vagrant.configure("2") do |config|
 	app.vm.provision "shell", path: "app.sh"
   end  
 
+config.vm.provision "shell", inline: "All configurations were installed!"
 end
